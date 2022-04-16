@@ -1,0 +1,17 @@
+section {
+    
+    h2 {
+        background-color: red;
+        @extend %posicionamiento;
+        
+    }
+
+    video {
+        display: flex;
+        flex-direction: row;
+        iframe {
+            align-items: center;
+        }
+    }
+    
+}

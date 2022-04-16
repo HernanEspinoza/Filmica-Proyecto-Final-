@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    justify-content: center;
+
+    h2 {
+        color: red;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            display: inline-block;
+            
+        }
+    }
+
+
+}

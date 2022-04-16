@@ -1,0 +1,27 @@
+{
+  "name": "filmicaproyectofinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HernanEspinoza/Filmica-Proyecto-Final-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HernanEspinoza/Filmica-Proyecto-Final-/issues"
+  },
+  "homepage": "https://github.com/HernanEspinoza/Filmica-Proyecto-Final-#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "hover": "^3.0.0-alpha.6",
+    "hover.css": "^2.3.2"
+  }
+}

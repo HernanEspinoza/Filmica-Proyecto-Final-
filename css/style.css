@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../images/fondo/salaCine.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.navbar div ul li a {
+  text-decoration: none;
+  color: red !important;
+  font-size: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer h2 {
+  color: red;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  display: inline-block;
+}
+
+.tituloPrincipal {
+  background-color: red;
+}
+
+section h2, .tituloPrincipal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.destacadosMain {
+  display: flex;
+  flex-direction: row;
+}
+
+.textosLook {
+  color: white;
+}
+
+section h2 {
+  background-color: red;
+}
+section video {
+  display: flex;
+  flex-direction: row;
+}
+section video iframe {
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
