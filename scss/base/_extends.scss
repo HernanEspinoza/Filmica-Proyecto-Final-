@@ -4,14 +4,30 @@
     align-items: center;
 }
 
-.destacadosMain {
-    display: flex;
-    flex-direction: row;
-}
 
 .textosLook {
     
     color: white;
   
     
+}
+
+/* Main y section Estrenos*/ 
+
+.tituloEstrenosEx {
+    color: black;
+    background-color: white;
+
+}
+
+/* Main y section Noticias */
+
+.tituloNoticiasEx {
+    color: white;
+    font-size: 20px;
+}
+
+.textoNoticiasEx {
+    color: white;
+    font-size: 15px;
 }

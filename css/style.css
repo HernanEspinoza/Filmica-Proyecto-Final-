@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../images/fondo/salaCine.jpg);
@@ -31,22 +32,35 @@ footer ul li {
   background-color: red;
 }
 
-section h2, .tituloPrincipal {
+/* Extends */
+.titulo__estrenos, section .titulo__trailer, .tituloPrincipal {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.destacadosMain {
-  display: flex;
-  flex-direction: row;
 }
 
 .textosLook {
   color: white;
 }
 
-section h2 {
+/* Main y section Estrenos*/
+.tituloEstrenosEx, .titulo__estrenos {
+  color: black;
+  background-color: white;
+}
+
+/* Main y section Noticias */
+.tituloNoticiasEx, h2 {
+  color: white;
+  font-size: 20px;
+}
+
+.textoNoticiasEx, p {
+  color: white;
+  font-size: 15px;
+}
+
+section .titulo__trailer {
   background-color: red;
 }
 section video {
@@ -56,5 +70,28 @@ section video {
 section video iframe {
   align-items: center;
 }
+
+.contenedor__imagen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor__textos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+}
+.contenedor__textos p {
+  color: white;
+  font-size: 20px;
+}
+
+.contenedor__noticias {
+  background-color: black;
+}
+
+/* Página Tops */
 
 /*# sourceMappingURL=style.css.map */
