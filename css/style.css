@@ -33,7 +33,7 @@ footer ul li {
 }
 
 /* Extends */
-.titulo__estrenos, section .titulo__trailer, .tituloPrincipal {
+.tituloCine, .titulo__estrenos, section .titulo__trailer, .tituloPrincipal {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,5 +93,33 @@ section video iframe {
 }
 
 /* Página Tops */
+.tituloCine {
+  background-color: white;
+  color: black;
+  font-size: 30px;
+}
+
+.tops__imagenes h2 {
+  color: black;
+  font-size: 30px;
+  background-color: red;
+  border-radius: 20px;
+  width: 150px;
+  text-align: center;
+}
+.tops__imagenes img {
+  width: 150px;
+  height: 200px;
+  border: red solid;
+}
+
+.texto__tops {
+  background-color: black;
+  margin-bottom: 10px;
+}
+.texto__tops p {
+  color: white;
+  font-size: 20px;
+}
 
 /*# sourceMappingURL=style.css.map */
