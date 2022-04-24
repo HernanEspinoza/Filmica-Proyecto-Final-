@@ -17,19 +17,33 @@ body {
 footer {
   display: flex;
   justify-content: center;
+  background-color: red;
 }
 footer h2 {
-  color: red;
+  color: black;
 }
 footer ul {
   list-style: none;
 }
 footer ul li {
   display: inline-block;
+  align-items: center;
+}
+footer ul li img {
+  width: 50px;
+  height: 50px;
 }
 
 .tituloPrincipal {
   background-color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+h5 {
+  font-size: 40px;
 }
 
 /* Extends */
@@ -50,14 +64,17 @@ footer ul li {
 }
 
 /* Main y section Noticias */
-.tituloNoticiasEx, h2 {
-  color: white;
-  font-size: 20px;
-}
-
 .textoNoticiasEx, p {
   color: white;
   font-size: 15px;
+}
+
+.articulo__noticias {
+  width: 600px;
+}
+
+.colorFondo, div main div h2, div main div .titulo__subpage {
+  background-color: red;
 }
 
 section .titulo__trailer {
@@ -77,22 +94,31 @@ section video iframe {
   justify-content: center;
 }
 
-.contenedor__textos {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 600px;
-}
-.contenedor__textos p {
-  color: white;
-  font-size: 20px;
+* {
+  padding: 0;
+  margin: 0;
 }
 
 .contenedor__noticias {
   background-color: black;
 }
+.contenedor__noticias .noticias__titulos {
+  background-color: red;
+  font-size: 20px;
+  border-radius: 10px;
+  align-items: center;
+}
+.contenedor__noticias a {
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
 
 /* Página Tops */
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .tituloCine {
   background-color: white;
   color: black;
@@ -120,6 +146,51 @@ section video iframe {
 .texto__tops p {
   color: white;
   font-size: 20px;
+}
+
+/* Sub páginas */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.imagen__noticia {
+  width: 540px;
+  margin-bottom: 10px;
+}
+
+.aside__contenedor {
+  margin-left: 20px;
+}
+.aside__contenedor a {
+  text-decoration: none;
+}
+
+div main div h2 {
+  font-size: 20px;
+  text-align: center;
+}
+div main div .aside__img {
+  width: 300px;
+}
+div main div .aside__sub {
+  width: 300px;
+  max-width: 100%;
+}
+
+/* Videos Iframes */
+.container__video {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.container__video .video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

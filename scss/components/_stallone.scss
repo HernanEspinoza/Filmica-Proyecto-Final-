@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.imagen__noticia {
+    width: 540px;
+    margin-bottom: 10px;
+}
+
+.aside__contenedor {
+    margin-left: 20px;
+    a {
+        text-decoration: none;
+    }
+}
+
+div {
+    main {
+        div {
+            .titulo__subpage {
+                @extend .colorFondo;
+            }
+
+            h2 {
+                @extend .colorFondo;
+                font-size: 20px;
+                text-align: center;
+            }
+
+            
+                
+
+                .aside__img {
+                    width: 300px;
+                }
+
+                .aside__sub {
+                    width: 300px;
+                    max-width: 100%;
+                }
+
+            
+        }
+    }
+}
