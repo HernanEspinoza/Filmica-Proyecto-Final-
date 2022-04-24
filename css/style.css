@@ -46,6 +46,12 @@ h5 {
   font-size: 40px;
 }
 
+.pretitulo {
+  font-size: 15px;
+  background-color: black;
+  color: yellow;
+}
+
 /* Extends */
 .tituloCine, .titulo__estrenos, section .titulo__trailer, .tituloPrincipal {
   display: flex;
